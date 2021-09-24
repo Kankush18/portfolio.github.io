@@ -130,9 +130,8 @@ h4{
 .button {
   height : 4em;
   width : 10em;
-  border: none;
-  background-color:white;
-  color:white;
+  border: 3px solid;
+  color: #F1E9E5;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: large;
@@ -143,9 +142,13 @@ h4{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  transition:all 0.2s;
 }
 .button:hover{
 background:red;
+transform: translateY(-0.50em);
+border-color:#000000 ;
+box-shadow : 0 0.5em 0.5em -0.4em #000000;
 }
 h5{
   text-align: right;
